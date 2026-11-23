@@ -43,36 +43,6 @@ animations and multi-language support (Indonesian, Javanese, English).
 
 ---
 
-## Files
-
-- **[README.md](README.md)** -- the file you are currently reading.
-- **[app/build.gradle.kts](app/build.gradle.kts)** -- module config, dependencies, and `BASE_URL` build config.
-- **app/src/main/java/com/dicoding/picodiploma/loginwithanimation/**
-  - `data/` -- `Result.kt`, `UserModel.kt`, `UserRepository.kt`.
-  - `data/pref/` -- `LocalDataStore.kt`, `UserPreference.kt` (DataStore session).
-  - `data/response/` -- `LoginResponse`, `RegisterResponse`, `StoryResponse`, `UploadStoryResponse`.
-  - `data/retrofit/` -- `ApiConfig.kt`, `ApiService.kt`.
-  - `di/Injection.kt` -- manual DI for repository.
-  - `adapter/ListAdapter.kt` -- RecyclerView adapter for stories.
-  - `view/welcome/WelcomeActivity.kt` -- Lottie onboarding.
-  - `view/login/` -- `LoginActivity.kt`, `LoginViewModel.kt`.
-  - `view/signup/` -- `SignupActivity.kt`, `SignUpViewModel.kt`.
-  - `view/main/` -- `MainActivity.kt`, `MainViewModel.kt`.
-  - `view/upload/` -- `UploadActivity.kt`, `UploadViewModel.kt`.
-  - `view/detail/DetailActivity.kt` -- story detail screen.
-  - `view/setting/` -- `SettingActivity.kt`, `SettingViewModel.kt`.
-  - `view/mybtnEdt/` -- custom `MyButton`, `MyEditEmail`, `MyEditPass` views.
-  - `view/utils/` -- `Utils.kt`, `ViewModelFactory.kt`.
-- **app/src/main/res/layout/** -- XML layouts (`activity_main`, `activity_login`,
-  `activity_signup`, `activity_upload`, `activity_detail`, `activity_setting`,
-  `activity_welcome`, `item_layout`).
-- **app/src/main/res/values/** -- `strings.xml`, `colors.xml`, `themes.xml`, `style.xml`.
-- **app/src/main/res/values-in/ & values-jv/** -- Indonesian & Javanese localization.
-- **app/src/main/assets/language.json** & **animasi/animation_language.json** -- Lottie assets.
-- **gambar/** -- onboarding background images.
-
----
-
 ## Requirements
 
 - **Android Studio** (Giraffe or newer)
